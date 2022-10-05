@@ -57,16 +57,109 @@ ul li {
     margin-left: 1rem;
 }
 .infosection {
-    margin:5rem auto;
+    margin:4rem auto;
     padding-bottom: 5rem;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
 .leftinfo {
-   width: 100%;
+   width: 50%;
    padding-right: 4rem;
+   max-width: 700px;
 }
-.header-img {
-    padding-left: 4rem;
+.imageright {
+    width: 50%;
+    background-image: url(images/priscilla-du-preez-XkKCui44iM0-unsplash\ copy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30rem;
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--whitetext);
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.leftinfo p {
+    color: var(--whitetextsec);
+    margin-bottom:1rem ;
+}
+.header-btn {
+    background-color: var(--buttonprimary);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--whitetextsec);
+}
+#tools {
+    margin: 3rem auto;
+    padding: 2rem 0;
+}
+h2{
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem 0;
+    gap: 3rem;
+}
+
+.card {
+    text-align: center;
+}
+.card img {
+    padding: 1rem;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border: solid 4px var(--buttonprimary);
+    border-radius: 5px;
+}
+#philosophy {
+    background-color:lightgray;
+    padding: 6rem 0 ;
+}
+#philosophy .container p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.name {
+    text-align: right;
+    margin-top:1rem;
+    font-weight: bold;
+}
+.box {
+    background-color: var(--buttonprimary);
+    margin:7rem auto;
+    padding: 2.5rem 4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--whitetext);
+}
+.sub-btn {
+    background-color: var(--buttonprimary);
+    border: solid 2px var(--whitetext);
+    color: var(--whitetext);
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+footer {
+    background-color: var(--infocolor);
+    color: var(--whitetext);
+    text-align: center;
+    padding: 1rem;
 }
